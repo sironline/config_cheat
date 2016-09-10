@@ -1,0 +1,2 @@
+# 播放yuv420p视频
+ffplay -s 1920x1080 -pix_fmt yuv420p test.yuv

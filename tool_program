@@ -1,0 +1,14 @@
+# 显示object信息
+readelf 文件
+
+# 显示二进制中符号
+nm cpp_test | grep demo | c++filt
+
+# 符号->原型
+c++filt symbol
+
+# 显示线程
+pe -eLf;    top -H -p PID
+
+# 内存溢漏
+valgrind --leak-check=full --log-file="log.txt" -v ./程序

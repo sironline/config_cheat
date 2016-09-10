@@ -1,0 +1,6 @@
+# sync写入磁盘(包括cache)，umount前
+blockdev --flushbufs /dev/mmcblk0p23
+
+# 设置只读
+blockdev --setro /dev/mmcblk0p23
+blockdev --setrw /dev/mmcblk0p23

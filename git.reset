@@ -1,0 +1,4 @@
+# 恢复上次commit->stage
+ git reset --soft HEAD^
+# 恢复至远程
+ git reset --hard origin/master

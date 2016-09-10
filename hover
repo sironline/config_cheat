@@ -1,0 +1,13 @@
+# 编译
+cmake -DCMAKE_TOOLCHAIN_FILE=../cmake/linaro.toolchain.cmake ..
+# 查看IQ库
+watch -n 1 "lsof -p `pidof mm-qcamera-daemon` | grep libchrom"
+# 日志
+/etc/init/mm-qcamera.conf [-v 2] 开启qcamera详细日志
+# 手动开启hostapd
+/usr/sbin/hostapd -B -P /var/run/hostapd.wlan0.pid /etc/hostapd.conf
+# hostapd５Ｇ配置
+hw_mode=a
+
+
+

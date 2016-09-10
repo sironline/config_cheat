@@ -1,0 +1,8 @@
+# 显示列表
+nmcli d wifi list
+# 连接
+nmcli d wifi connect <SSID> password <PASSWORD> iface wlan0
+# 断开
+nmcli d disconnect iface wlan0
+# 显示存贮scheme
+nmcli c

@@ -1,0 +1,10 @@
+# 按域, -d指定分隔符　-f: field
+cut -d# -f3    #取第3个域
+
+# 按位置 (b:固定8位, c:区分utf-8)
+cut -c 3-5,8
+
+
+
+# To cut out the third field of text or stdoutput that is delimited by a #:
+cut -d# -f3

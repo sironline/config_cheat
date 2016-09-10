@@ -1,0 +1,6 @@
+# 修改
+git remote set-url origin git@.......
+# 删除
+git remote rm origin
+# 增加
+git remote add zerozero git@........

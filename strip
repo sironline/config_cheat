@@ -1,0 +1,2 @@
+# 去除所有symbol
+strip -s lib.so
